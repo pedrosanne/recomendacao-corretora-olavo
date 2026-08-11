@@ -54,9 +54,14 @@ function Index() {
       {/* Cabeçalho */}
       <header className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-5 py-5 sm:px-8">
         <span className="label-mono">Indicação pessoal</span>
-        <span className="font-mono text-[11px] tracking-[0.18em] text-muted-foreground">
+        <a
+          href="https://www.instagram.com/olavoabravanel"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-mono text-[11px] tracking-[0.18em] text-muted-foreground transition-colors hover:text-foreground"
+        >
           @olavoabravanel
-        </span>
+        </a>
       </header>
 
       {/* Hero */}
@@ -67,7 +72,7 @@ function Index() {
             <h1 className="mt-5 font-display text-[2.6rem] leading-[0.98] tracking-tight sm:text-6xl lg:text-7xl">
               A corretora que eu
               <br />
-              uso todo dia — e a<br />
+              uso todo dia - e a<br />
               <span className="italic">única</span> que eu indico.
             </h1>
             <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -92,7 +97,7 @@ function Index() {
               className="w-full border border-ink-line object-cover"
             />
             <figcaption className="mt-3 font-mono text-[11px] tracking-[0.14em] text-muted-foreground">
-              MINHA MESA — SÃO PAULO
+              MINHA MESA / SAO PAULO
             </figcaption>
           </figure>
         </div>
@@ -185,7 +190,17 @@ function Index() {
           mercado financeiro envolve risco de perda; resultados passados não garantem resultados
           futuros.
         </p>
-        <p className="label-mono mt-6">© {new Date().getFullYear()} Olavo Abravanel</p>
+        <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <p className="label-mono">© {new Date().getFullYear()} Olavo Abravanel</p>
+          <a
+            href="https://www.instagram.com/olavoabravanel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="label-mono text-foreground transition-colors hover:text-accent"
+          >
+            instagram.com/olavoabravanel
+          </a>
+        </div>
       </footer>
     </main>
   );
