@@ -29,7 +29,7 @@ const razoes = [
   {
     n: "01",
     t: "Execução sem atraso",
-    d: "Ordem enviada, ordem preenchida. Em dia de notícia é onde a maioria das corretoras trava — e foi exatamente aí que essa passou no meu teste.",
+    d: "Ordem enviada, ordem preenchida. Em dia de notícia é onde a maioria das corretoras trava - e foi exatamente aí que essa passou no meu teste.",
   },
   {
     n: "02",
