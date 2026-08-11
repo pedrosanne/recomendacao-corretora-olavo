@@ -4,13 +4,13 @@ import mesa from "@/assets/mesa.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Olavo Abravanel — A corretora que eu uso e indico" },
+      { title: "Olavo Abravanel - A corretora que eu uso e indico" },
       {
         name: "description",
         content:
           "A corretora de confiança do Olavo Abravanel: execução rápida, saque no mesmo dia e suporte em português. Abra sua conta pelo link de indicação.",
       },
-      { property: "og:title", content: "A corretora que eu uso e indico — Olavo Abravanel" },
+      { property: "og:title", content: "A corretora que eu uso e indico - Olavo Abravanel" },
       {
         property: "og:description",
         content:
@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const LINK = "https://pay.cakto.com.br/xj8fwre";
+const LINK = "https://trade.polariumbroker.com/register?aff=796747&aff_model=revenue&afftrack=paginadeindicacao-olavo";
 
 const razoes = [
   {
