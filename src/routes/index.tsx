@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const LINK = "https://trade.polariumbroker.com/register?aff=796747&aff_model=revenue&afftrack=paginadeindicacao-olavo";
+const LINK = "https://trade.safirion.com/register?aff=835323&aff_model=revenue&afftrack=recomedacao-corretora-olavo";
 
 const razoes = [
   {
